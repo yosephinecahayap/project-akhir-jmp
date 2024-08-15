@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang\nAplikasi"
+            android:layout_margin="20dp"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:id="@+id/tvTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Pendataan Alumni ini dirancang untuk mengelola data alumni. Pada aplikasi ini, pengguna dapat menambahkan data alumni serta membaca berbagai informasi seperti detail data alumni dan berita-berita menarik yang kami tampilkan."
+            android:layout_margin="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="100dp"
+            android:justificationMode="inter_word"/>
+    </LinearLayout>
+</FrameLayout>
